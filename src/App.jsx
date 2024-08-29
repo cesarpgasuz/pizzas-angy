@@ -1,10 +1,23 @@
+import Direccion from "./components/Direccion"
+import Footer from "./components/Footer"
+import FormasPagos from "./components/FormasPagos"
+import Header from "./components/Header"
+import Menu from "./components/Menu"
+import ServicioDomicilio from "./components/ServicioDomicilio"
+import Tamanos from "./components/Tamanos"
 
 function App() {
   
   return (
-    <h1 className="text-center text-4xl font-bold">
-      pizzas angy
-    </h1>
+    <>
+      <Header />
+      <Menu />
+      <Tamanos />
+      <Direccion />
+      <ServicioDomicilio />
+      <FormasPagos />
+      <Footer />
+    </>
   )
 }
 

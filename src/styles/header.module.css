@@ -1,0 +1,15 @@
+.circleHeader {
+    width: 219px;
+    height: 219px;
+    @apply bg-angy-yellow;
+    border-radius: 100%;
+    position: absolute;
+}
+.circleHeader:nth-child(1){
+    left: 0;
+    top: 0;
+}
+.circleHeader:nth-child(2){
+    right: 0;
+    top: 0;
+}
