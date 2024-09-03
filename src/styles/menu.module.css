@@ -1,0 +1,6 @@
+.itemPizza li::after{
+    content: ',';
+}
+.itemPizza li:last-child::after{
+    content: '';
+}
