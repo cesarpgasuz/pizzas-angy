@@ -1,0 +1,26 @@
+.contenedorCajas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 132px), 1fr));
+    gap: 24px;
+}
+
+.contenedorCajas>div {
+    @apply bg-angy-orange-light;
+    @apply border-2;
+    @apply border-angy-orange-bold;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.contenedorCajas>div:last-child {
+    @apply bg-angy-yellow;
+    @apply border-angy-orange-medium;
+    padding: 15px;
+    display: grid;
+    gap: 12px;
+}
+
+.contenedorCajas>div:last-child h3{
+    margin-top: 10px;
+}
