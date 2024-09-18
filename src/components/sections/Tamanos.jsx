@@ -8,7 +8,7 @@ const Tamanos = () => {
   return (
     <section className="contenedor padding-25">
       <h2 className="uppercase text-center text-angy-texto-pri font-bold text-xl mb-6">Tamaños</h2>
-      <div class={styles.contenedorCajas}>
+      <div className={styles.contenedorCajas}>
 
         {TAMANOS.map(tamano => (
           <div key={tamano.id}>

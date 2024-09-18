@@ -57,3 +57,31 @@ export const TAMANOS = [
         precio: 300
     },
 ]
+
+export const INFONEGOCIO = {
+    nombre: 'Pizza Angy',
+    direccion: 'Avenida Hidalgo #26, Doctor Mora'
+}
+
+export const COMUNIDADES = [
+    "Doctor Mora Centro",
+    "Loma de Buenavista",
+    "La Noria",
+    "San Rafael",
+    "Ejido Begoña",
+    "La Purisima",
+    "San Agustín",
+    "La Doncella",
+    "Ejido Vagui",
+    "Vagui"
+  ];
+
+
+  export const HORARIOS = {
+    Lunes: '3:00 pm - 10:00 pm',
+    Martes: '3:00 pm - 10:00 pm',
+    Miércoles: '5:00 pm - 10:00 pm',
+    Jueves: '3:00pm - 9:00 pm',
+    Viernes: '12:00 pm - 10:00 pm',
+    Domingo: '10:00 am - 10:00 pm'
+  }
