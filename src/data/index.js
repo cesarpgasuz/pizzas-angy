@@ -83,5 +83,6 @@ export const COMUNIDADES = [
     Miércoles: '5:00 pm - 10:00 pm',
     Jueves: '3:00pm - 9:00 pm',
     Viernes: '12:00 pm - 10:00 pm',
+    Sabado: '12:00 pm - 10:00 pm',
     Domingo: '10:00 am - 10:00 pm'
   }
