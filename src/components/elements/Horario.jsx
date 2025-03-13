@@ -28,7 +28,7 @@ const horarioHoy = HORARIOS[diaDeHoy]
 
 
   return (
-    <div className="w-[270px] px-3 py-2 bg-angy-orange-light rounded-md mx-auto flex justify-center items-center gap-2">
+    <div className="w-[270px] px-3 py-2 bg-angy-orange-light rounded-md mx-auto flex justify-center items-center gap-2 lg:mt-8">
         <Clock className='size-6' />
         <span className="font-semibold text-angy-texto-pri text-sm">{`${diaDeHoy}: ${horarioHoy}`}</span>
     </div>

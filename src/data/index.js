@@ -1,27 +1,32 @@
+import  ImagenCarnes from '../assets/images/pizzas/carnes.webp';
+import  ImagenHawa from '../assets/images/pizzas/hawa.webp';
+import  ImagenMex from '../assets/images/pizzas/mex.webp';
+import  ImagenPepe from '../assets/images/pizzas/pepe.webp';
+
 export const PIZZAS = [
     {
         id: 1,
         nombre: 'Pepperoni',
         ingredientes: ['peperoni'],
-        imagen: 'pepe.png'
+        imagen: ImagenPepe
     },
     {
         id: 2,
         nombre: 'Hawaiana',
         ingredientes: ['jamon','piña'],
-        imagen: 'hawa.png'
+        imagen: ImagenHawa
     },
     {
         id: 3,
         nombre: 'Carnes frias',
         ingredientes: ['chorizo', 'jamon', 'pepperoni', 'salchichas'],
-        imagen: 'carnes.png'
+        imagen: ImagenCarnes
     },
     {
         id: 4,
         nombre: 'Mexicana',
         ingredientes: ['chorizo', 'tocino', 'jalapeño', 'cebolla', 'pimiento morron'],
-        imagen: 'mex.png'
+        imagen: ImagenMex
     }
 ]
 
